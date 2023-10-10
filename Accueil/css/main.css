@@ -1,0 +1,79 @@
+body {
+    background-color: #0f0a35;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#top {
+    background-image: url(../assets/bg-accueil2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 11px;
+    color: rgb(208, 208, 208);
+    padding: 20px 0 30px;
+}
+
+button {
+    border: 0;
+    border-radius: 2px;
+    background-color: #ec9123;
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+
+#team {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+hr {
+    width: 100px;
+    margin: 20px 0;
+}
+
+#profils {
+    display: flex;
+
+}
+
+.profil {
+    background-color: #0d082c;
+    width: 200px;
+    height: 250px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
