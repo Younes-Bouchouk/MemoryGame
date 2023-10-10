@@ -46,7 +46,8 @@ button {
 
 
 #presentation {
-    padding: 50px 15%;
+    margin: 200px auto;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +60,7 @@ button {
 }
 
 #images img {
-    height: 300px;
+    height: 360px;
 }
 
 #textes {
@@ -100,20 +101,22 @@ section {
 
 
 #stats {
-    padding: 50px 15%;
+    margin: 200px auto;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
 }
 
 #stats img {
-    height: 350px;
+    height: 380px;
 }
 
 
 
 
 #team {
-    padding: 50px 100px;
+    margin: 200px auto;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,8 +139,8 @@ section {
 
 .profil {
     background-color: #0d082c;
-    width: 350px;
-    height: 450px;
+    width: 380px;
+    height: 480px;
     margin: 0 10px;
     display: flex;
     flex-direction: column;
@@ -147,8 +150,8 @@ section {
 }
 
 .pdp {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     margin: 20px 0;
     border-radius: 50%;
 }
