@@ -41,7 +41,7 @@ ul{
 }
 
 li {
-    list-style-image:url(../asset/CarrC3A9_orange.png);
+    list-style-image:url(../assets/CarrC3A9_orange.png);
 }
 
 a {
@@ -86,7 +86,7 @@ body{
 }
 
 .baniere{
-    background-image: url(../asset/VilleFuturiste1.jpeg);
+    background-image: url(../assets/VilleFuturiste1.jpeg);
     background-size: cover ;
     background-position: center;
     height: 350px;
