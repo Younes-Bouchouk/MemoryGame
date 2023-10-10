@@ -1,11 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #0f0a35;
+    background-color: #11102f;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #top {
-    background-image: url(../assets/bg-accueil2.png);
+    background-image: url(../assets/bg-accueil.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,7 +21,6 @@ body {
     align-items: center;
     height: 960px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -23,9 +28,9 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-size: 11px;
-    color: rgb(208, 208, 208);
+#top p {
+    font-size: 14px;
+    color: #cacee8;
     padding: 20px 0 30px;
 }
 
@@ -36,23 +41,92 @@ button {
     color: white;
     height: 40px;
     width: 110px;
+    font-weight: 600;
 }
 
+
+#presentation {
+    padding: 50px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#images img {
+    height: 300px;
+}
+
+#textes {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    color: #3724a0;
+    margin-top: -8px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+h6 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.paragraphe {
+    width: 250px;
+    text-align: justify;
+
+}
+
+.paragraphe p {
+    font-size: 15px;
+    color: #cacee8;
+}
+
+
+
+#stats {
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#stats img {
+    height: 350px;
+}
+
+
+
+
 #team {
-    padding: 50px 0;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #team h1 {
-    font-family: Verdana, Tahoma, sans-serif;
     font-size: 25px;
 }
 
-hr {
-    width: 100px;
+#hr {
+    width: 150px;
     margin: 20px 0;
+    color: #ec9123;
 }
 
 #profils {
@@ -62,18 +136,33 @@ hr {
 
 .profil {
     background-color: #0d082c;
-    width: 200px;
-    height: 250px;
+    width: 350px;
+    height: 450px;
     margin: 0 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+
     padding-bottom: 50px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.pdp {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
     border-radius: 50%;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+h4 {
+    color: #cacee8;
+    margin: 20px 0;
+}
+
+.rs img {
+    margin: 0 5px;
 }
