@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #0f0a35;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#0d082c;
+    color: white;
+
+
+}
+
+.orange{
+color: orange;
+
+}
+
+.grisClair{
+color: lightgray;
+margin: 10px 0;
+}
+
+ul{
+    margin-left: 14px ;
+
+}
+
+li {
+    list-style-image:url(../assets/CarrC3A9_orange.png);
+}
+
+a {
+    margin: 0 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#boutonInscription{
+    width: 150px;
+    height: 50px;
+    background-color: #ec9123 ;
+    padding-right: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+
+
+}
+
+input{
+    color: lightgray;
+    background-color: rgb(39, 38, 69);
+    width: 500px ;
+    height: 50px ;
+    border: 0;
+    margin: 10px;
+    border-radius: 2px;
+    padding-left: 15px;
+    
+}
+
+body{
+
+    background-color: #0f0a35;
+}
+
+.baniere{
+    background-image: url(../assets/VilleFuturiste1.jpeg);
+    background-size: cover ;
+    background-position: center;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    color: white;
+
+}
+
+#nameOfPage {
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.decoBas{
+    padding: 10px;
+   
+}
+.margin-f{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 50px auto;
+
+
+}
