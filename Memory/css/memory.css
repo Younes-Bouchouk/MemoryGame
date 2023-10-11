@@ -1,0 +1,22 @@
+body {
+    background-color: #11102f;
+}
+
+#test {
+    padding-top: 80px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte {
+    width: 125px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/CarteClash/dos.png);
+    border-radius: 35px;
+
+    margin: 10px;
+}
