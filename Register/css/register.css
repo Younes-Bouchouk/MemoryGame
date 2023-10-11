@@ -1,57 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header {
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    color: white;
-    font-family: Verdana, Tahoma, sans-serif;
-    background-color: #0f0a35;
-
-}
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color:#0d082c;
-    color: white;
-
-}
-
-.orange{
-color: orange;
-
-}
-
-.grisClair{
-color: lightgray;
-margin: 10px 0;
-}
-
-ul{
-    margin-left: 14px ;
-
-}
-
-li {
-    list-style-image:url(../assets/CarrC3A9_orange.png);
-}
-
-a {
-    margin: 0 8px;
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
 #boutonInscription{
     width: 150px;
     height: 50px;
@@ -99,10 +45,5 @@ body{
 #nameOfPage {
     margin-top: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.decoBas{
-    padding: 10px;
 
 }
