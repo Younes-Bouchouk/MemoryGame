@@ -1,0 +1,44 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#0d082c;
+    color: white;
+
+}
+
+.orange{
+color: orange;
+
+}
+
+.grisClair{
+color: lightgray;
+margin: 20px 0;
+}
+
+ul{
+    margin-left: 14px ;
+
+}
+
+li {
+    list-style-image:url(../assets/CarrC3A9_orange.png);
+}
+
+.a {
+    margin: 0 2px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.decoBas{
+    padding: 10px;
+
+}
+#Copyright{
+
+    margin-top: 100px;
+
+}
