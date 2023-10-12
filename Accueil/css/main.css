@@ -215,8 +215,19 @@ section {
 }
 
 h3 {
+    position: relative;
     font-weight: 600;
     margin: 20px 0;
+}
+
+h3 span {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+    font-size: 10px;
+    color: #eb9123;
 }
 
 h4 {
