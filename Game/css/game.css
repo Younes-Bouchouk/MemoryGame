@@ -1,0 +1,22 @@
+body {
+    background-color: #11102f;
+}
+
+#test {
+    padding-top: 80px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte {
+    width: 83.33px;
+    height: 113.33px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/younes/rocket.png);
+    border-radius: 20px;
+
+    margin: 10px;
+}
