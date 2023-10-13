@@ -24,6 +24,7 @@ body{
     width: 1000px;
     margin: 200px auto 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -33,6 +34,7 @@ table {
     border-collapse: collapse;
     width: 800px;
     box-shadow: 0 0 400px rgb(255, 0, 162);
+    margin: 50px auto;
 }
 
 tr {

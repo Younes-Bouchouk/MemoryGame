@@ -39,3 +39,22 @@ input{
     
 }
 
+#profil a {
+    position: relative;
+    padding: 10px;
+
+}
+
+#profil a img {
+    position: absolute;
+    top: -50px;
+    left: -250px;
+    background-color: #11102f;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+
+
+
