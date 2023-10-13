@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/chatBox.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>MemoryGame - Accueil</title>
 </head>
@@ -12,10 +13,12 @@
 <header>
     <h1 id="title">Memory Game</h1>
     <nav>
-        <a href="index.html">ACCUEIL</a>
+        <a href="../Accueil/index.html">ACCUEIL</a>
         <a href="../Memory/memory.html">JEU</a>
         <a href="../Scores/scores.html">SCORES</a>
         <a href="../Contact/contact.html">NOUS CONTACTER</a>
+        <a href="../Login/login.html">SE CONNECTER</a>
+        <a href="../MyAccount/myAccount.html">MON COMPTE</a>
     </nav>
 </header>
 
@@ -64,7 +67,27 @@
 
     <div id="stats">
         <img src="assets/img-stats.jpg" alt="">
-        <img src="assets/flemme.JPG" alt="">
+        <div id="stats-cards">
+            <div class="cards">
+                <p class="num">0</p>
+                <p class="description">Partie Jouées</p>
+            </div>
+
+            <div class="cards">
+                <p class="num">0</p>
+                <p class="description">Joueurs Connectés</p>
+            </div>
+
+            <div class="cards">
+                <p class="num">0</p>
+                <p class="description">Temps Record</p>
+            </div>
+
+            <div class="cards">
+                <p class="num">0</p>
+                <p class="description">Joueurs Inscrits</p>
+            </div>
+        </div>
     </div>
 
     <div id="team">
@@ -85,7 +108,9 @@
 
             <div class="profil">
                 <img class="pdp" src="./assets/nicolas.gif" alt="">
-                <h3>NICOLAS</h3>
+                <h3>NICOLAS<br> 
+                    <span>(Scrum Master)</span>
+                </h3>
                 <h4>Scrum Master</h4>
                 <div class="rs">
                     <img src="assets/discord.png" alt="">
@@ -110,39 +135,66 @@
     </div>
 
 
+    <div id="chatbox">
+
+        <div id="screen">
+
+            <p class="me">Y'a qui ?</p>
+
+            <p class="other">Moi. Mais j'veux pas jouer avec toi t'es trop guez. Tu fais que des team diff</p>
+
+            <p class="me">Toi j'vais t'attraper à la coding t'es mort! Valérie ou pas tu vas voir</p>
+
+            <p class="other">Azy quand tu veux, où tu veux pelo</p>
+
+            <p class="me">J'viens tout seul, tkt j'ai vraiment pas peur de toi!</p>
+            
+            <p class="other">Azi, je ramène mes gants de boxe, on va niqué de fou la !</p>
+
+            <p class="me">Aah, tu fais de la boxe XD j'savais pas</p>
+
+            <p class="other">Je FF t'es trop un lâche</p>
+            
+        </div>
+
+        <div id="envoyer-message">
+            <input type="text" name="" id="message" placeholder="Entrez votre message">
+            <label for="message"></label>
+            <button id="send">Envoyer</button>
+        </div>
+
+
+    </div>
+
+
     
 </body>
 
 <footer>
     <div class="decoBas">
         <h2>information</h2>
-        <p class="grisClair"> Si vous voulez nous contacter, vous pouvez nous joindres via les informations suivantes</p>
+        <p class="grisClair"> Si vous voulez nous contacter,<br> vous pouvez nous joindres via les informations suivantes</p>
         <p class="grisClair"><span class="orange">tel:</span> 07 82 87 68 99</p>
         <p class="grisClair"><span class="orange">mail:</span> jeromme.morand@gmail.com</p>
         <p class="grisClair"><span class="orange">localisation:</span> Cergy</p>
-    
-        <a href="https://www.facebook.com/?locale=fr_FR"><img src="assets/facebook.png"></img></a>
-        <a href=" https://twitter.com/?lang=fr"><img src="assets/twitter.png"></img></a>
-        <a href="https://www.google.fr/"><img src="assets/google.png"></img></a>
-        <a href="https://www.pinterest.fr/"><img src="assets/pinterest.png"></img></a>
-        <a href="https://www.instagram.com/"><img src="assets/instagram.png"></img></a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>Copyright @ 2023 Tous droits réservés</p>
+
+        <a class="a" href="https://www.facebook.com/?locale=fr_FR"><img src="assets/facebook.png"></img></a>
+        <a class="a" href=" https://twitter.com/?lang=fr"><img src="assets/twitter.png"></img></a>
+        <a class="a" href="https://www.google.fr/"><img src="assets/google.png"></img></a>
+        <a class="a" href="https://www.pinterest.fr/"><img src="assets/pinterest.png"></img></a>
+        <a class="a" href="https://www.instagram.com/"><img src="assets/instagram.png"></img></a>
+        <p id="Copyright">Copyright @ 2023 Tous droits réservés</p>
     </div>
     <div class="decoBas">
-        
+
         <h2>Power Of Mermory</h2>
         <ul>
             <li class="grisClair">jouer !</li>
             <li class="grisClair">les scores</li>
             <li class="grisClair">nous contacter</li>
         </ul>
-    
+
     </div>
-    
-    </footer>
+
+</footer>
 </html>

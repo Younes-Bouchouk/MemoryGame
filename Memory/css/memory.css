@@ -1,0 +1,74 @@
+#boutonNovice{
+    background-color: rgb(78, 136, 217);
+}
+
+#boutonFacile{
+    background-color:green;
+
+}
+
+#boutonIntermediaire{
+    background-color:orange;
+}
+
+#boutonDifficile{
+    background-color:red;
+}
+
+#boutonExtreme{
+    background-color:rgb(142, 2, 119);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+
+
+}
+
+input{
+    color: lightgray;
+    background-color: rgb(39, 38, 69);
+    width: 500px ;
+    height: 50px ;
+    border: 0;
+    margin: 20px 0;
+    border-radius: 2px;
+    padding-left: 15px;
+    
+}
+
+body{
+
+    background-color: #0f0a35;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.baniere{
+    background-image: url(../assets/VilleFuturiste1.jpeg);
+    background-size: cover ;
+    background-position: center;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    color: white;
+
+}
+
+#nameOfPage {
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.alignement{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
