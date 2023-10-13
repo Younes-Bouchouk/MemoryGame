@@ -1,0 +1,70 @@
+#chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ec9123;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+#screen {
+    width: 96%;
+    height: 90%;
+    margin: 2% auto 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+#screen p {
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.me {
+    background-color: cadetblue;
+    margin-left: 50px;
+
+}
+
+
+
+.other {
+    background-color: lightgrey;
+    margin-right: 50px;
+}
+
+#envoyer-message {
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    color: black;
+
+}
+
+#message {
+    border: 3px solid #ec9123;
+    border-left: 6px solid #ec9123;
+    width: 70%;
+    height: 40px;
+    padding: 0 10Px;
+}
+
+#send {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    border-radius: 0;
+}
+
+
