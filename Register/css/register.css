@@ -3,106 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:nth-child(5)::after {
+    content: '';
+    background-color: #eb9123;
     position: absolute;
+    top: 45px;
+    left: 0;
     width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    color: white;
-    font-family: Verdana, Tahoma, sans-serif;
-    background-color: #0f0a35;
-
+    height: 3px;
 }
 
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color:#0d082c;
-    color: white;
-
+@media screen and (max-width: 950px) {
+    nav a:nth-child(5)::after {
+        top: 0;
+        height: 100%;
+    }
 }
 
-.orange{
-color: orange;
-
-}
-
-.grisClair{
-color: lightgray;
-margin: 10px 0;
-}
-
-ul{
-    margin-left: 14px ;
-
-}
-
-li {
-    list-style-image:url(../assets/CarrC3A9_orange.png);
-}
-
-a {
-    margin: 0 8px;
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-#boutonInscription{
-    width: 150px;
-    height: 50px;
-    background-color: #ec9123 ;
-}
+/* ========================================================= */
+/* ========================================================= */
 
 form{
+    margin: 100px auto 100px;
+    width: 90%;
+    max-width: 1100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 150px 0;
+    flex-direction: column;
+}
 
-
+#form-inscription {
+    width: 550px;
+    max-width: 100% ;
 }
 
 input{
     color: lightgray;
     background-color: rgb(39, 38, 69);
-    width: 500px ;
+    width: 550px;
+    max-width: 100% ;
     height: 50px ;
     border: 0;
-    margin: 10px;
+    margin: 10px 0;
     border-radius: 2px;
-    padding-left: 20px;
-    
-}
-
-body{
-
-    background-color: #0f0a35;
-}
-
-.baniere{
-    background-image: url(../assets/VilleFuturiste1.jpeg);
-    background-size: cover ;
-    background-position: center;
-    height: 350px;
-    display: grid;
-    place-items: center;
-    color: white;
-
-}
-
-#nameOfPage {
-    margin-top: 80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.decoBas{
     padding: 10px;
-
 }
+
+#boutonInscription{
+    width: 150px;
+    height: 50px;
+    background-color: #ec9123;
+    font-weight: bold;
+}
+
